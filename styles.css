@@ -1,6 +1,5 @@
 body {
-    background-image: url("./images/urnes.png");
-}
+    background-image: url("./images/urnes.png");}
 
 /*  custom off white: (252, 245, 237)
     custom dark gray: (73, 73, 73) */
@@ -8,6 +7,7 @@ body {
 .content-wrapper {
     color: rgb(73, 73, 73);
     background-color: rgba(252, 245, 237, 0.94);
+    border-radius:20px;
 
     margin-left: auto;
     margin-right: auto;
@@ -16,27 +16,18 @@ body {
     padding-top:38px;
     padding-bottom: 38px;
     padding-left: 62px;
-    padding-right: 62px;
-    
-}
-.footer{
-    padding-top:62px;
-    text-align: center;
-}
-img{
-    width:100%;
-    height:auto;
-}
-h1{
-        text-align: center;
-}
+    padding-right: 62px;}
+
+.footer{padding-top:62px;
+    text-align: center;}
+
+img{width:100%;
+    height:auto;}
+
+h1{text-align: center;}
   
-a{
-    color:rgb(73, 73, 73);
-}
-a:hover {
-    text-shadow:0px 0px 1px rgb(73, 73, 73);
-}
-a:active{
-    color:firebrick;
-}
+a{color:rgb(73, 73, 73);}
+
+a:hover {text-shadow:0px 0px 1px rgb(73, 73, 73);}
+
+a:active{color:firebrick;}
