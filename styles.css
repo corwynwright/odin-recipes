@@ -1,13 +1,31 @@
-body {
-    background-image: url("./images/urnes.png");}
+body, html {height:100%;
+   border: 0;
+   padding: 0;
+   margin: 0;}
+
+.bg{position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/viking.png");
+    height: 100%;}
 
 /*  custom off white: (252, 245, 237)
     custom dark gray: (73, 73, 73) */
+#vegetables{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 100%;
+    text-align:center;
+    color:black;
+    font-size:40px;
+}
 
 .content-wrapper {
     color: rgb(73, 73, 73);
     background-color: rgba(252, 245, 237, 0.94);
-
+    
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
@@ -20,7 +38,7 @@ body {
 .footer{padding-top:62px;
     text-align: center;}
 
-img{width:100%;
+img.recipe{width:100%;
     height:auto;}
 
 h1{text-align: center;}
