@@ -15,23 +15,22 @@ body, html {height:100%;
     background-size: cover;
     height:100%;
     width: 100%;
-    opacity: 0.78}
+    opacity: 0.83}
 
 /*  custom off white: (252, 245, 237)
     custom dark gray: (73, 73, 73) */
 
 .gold{
+    font-weight: bold;
     position: absolute;
     margin:0px;
-    width:15%;
-    text-align:center; 
-    text-shadow:0px 0px 24px rgb(31, 16, 0);
+    
+    text-shadow:0px 0px 12px rgb(31, 16, 0);
 }
 
 
 #odin{
     color:rgb(236, 215, 160);
-    font-weight: bold;
     font-family: "Norse";
     font-size: 53px;
 
@@ -40,27 +39,34 @@ body, html {height:100%;
 }
 
 .gold a{
-    color:rgb(236, 215, 160);
+    color:rgb(236, 215, 160);                 
+    max-width:15%;
     font-size:27px;
     text-decoration: none;
     font-family: "Norse2";
 }
 
+.gold a:hover{
+    text-shadow: -1px 1px 0 antiquewhite,
+				  1px 1px 0 antiquewhite,
+				  1px -1px 0 antiquewhite;
+}
+
 #vegetables{
-    left: 50%;
+    left: 52%;
     top: 15%;}
 
 #mead{
-    left: 22%;
+    left: 26.5%;
     top: 42%;}
 
 #desserts{
-    left:67%;
+    left:69%;
     top:61%;
     } 
 
 #main{
-    left: 12%;
+    left: 13%;
     top: 70%;
 }
 
