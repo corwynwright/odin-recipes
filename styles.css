@@ -10,7 +10,8 @@ body, html {height:100%;
 #splash{
     background-size: cover;
     width: 100%;
-    height: 100%;}
+    height: 100%;
+    opacity: 0.75}
 
 /*  custom off white: (252, 245, 237)
     custom dark gray: (73, 73, 73) */
