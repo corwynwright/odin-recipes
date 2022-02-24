@@ -7,9 +7,7 @@ body, html {height:100%;
    padding: 0;
    margin: 0;}
 
-.bg{position:relative;
-    background-position: center;
-    background-repeat: no-repeat;
+.bg{
     background-size: cover;
     background-image: url("./images/viking.png");
     height: 100%;}
@@ -22,9 +20,8 @@ body, html {height:100%;
     color:rgb(236, 215, 160);
     font-size:43px;
     font-weight: bold;
-    position: absolute;
+    position: fixed;
     width:15%;
-    border: 2px solid green;
     text-shadow:0px 0px 24px rgb(31, 16, 0);
     font-family: "Norse";
     text-decoration: none;}
@@ -37,15 +34,15 @@ body, html {height:100%;
 
 #vegetables a{
     left: 50%;
-    top: 10%;}
+    top: 15%;}
 
 #mead a{
-    left: 23%;
-    top: 40%;}
+    left: 22%;
+    top: 43%;}
 
 #dessert a{
     left: 12%;
-    top: 70%;} 
+    top: 73%;} 
 
 .content-wrapper {
     color: rgb(73, 73, 73);
@@ -55,6 +52,7 @@ body, html {height:100%;
     margin-right: auto;
     max-width: 960px;
     min-height: 800px;
+
     padding-top:38px;
     padding-bottom: 38px;
     padding-left: 62px;
