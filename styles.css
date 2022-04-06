@@ -21,7 +21,11 @@ h1, h2 {
     background-size: cover;
     height:100%;
     width: 100%;
-    opacity: 0.83}
+   /* opacity: 0.83 */
+   opacity: 0.7;  /* Opacity for Modern Browsers */
+    filter: alpha(opacity=70);  /* Opacity for IE8 and lower */
+    zoom: 1;  /* Fix for IE7 */
+}
 
 /*  off white: (252, 245, 237)
     dark gray: (73, 73, 73) */
@@ -34,10 +38,10 @@ h1, h2 {
 }
 @media only screen and (max-width: 600px) {
     #odin{
-        font-size: 30px;
+        font-size: 35px;
     }
     .gold a{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 600px){
