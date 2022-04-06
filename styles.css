@@ -10,21 +10,19 @@ body, html {height:100%;
    border: 0;
    padding: 0;
    margin: 0;
-   font-size: 100%
+   font-size: 100%;
+   width: 100%;
+   height: 100%;
 }
 
 h1, h2 {
     font-family: "Norse";
 }
 
-#splash{
+#hero{
     background-size: cover;
     height:100%;
     width: 100%;
-   /* opacity: 0.83 */
-   opacity: 0.7;  /* Opacity for Modern Browsers */
-    filter: alpha(opacity=70);  /* Opacity for IE8 and lower */
-    zoom: 1;  /* Fix for IE7 */
 }
 
 /*  off white: (252, 245, 237)
@@ -36,31 +34,77 @@ h1, h2 {
     margin:0px;   
     text-shadow:0px 0px 12px rgb(31, 16, 0);
 }
+
 @media only screen and (max-width: 600px) {
+    .gold a, #odin{
+        text-shadow: 
+        -1px 1px 0 rgb(31, 16, 0),
+        1px 1px 0 rgb(31, 16, 0),
+        1px -1px 0 rgb(31, 16, 0),
+        -1px -1px 0 rgb(31, 16, 0);
+    }
+    #hero{
+        opacity: 0.6;
+    }
     #odin{
         font-size: 35px;
     }
     .gold a{
         font-size: 16px;
     }
+    #vegetables, #mead, #desserts, #main{
+        left: 3%;
+    }
+    #vegetables{
+        top: 20%;
+    }
+    #mead{
+        top: 30%;
+    }
+    #desserts{
+        top: 40%;
+    }
+    #main{
+        top: 50%;
+    }
+
 }
 @media only screen and (min-width: 600px){
+    #hero{
+        opacity: 0.82;
+    }
     #odin{
         font-size: 3.6vw;
     }
     .gold a{
         font-size: 1.8vw;
     }
+    #vegetables{
+        top: 15%;
+        left: 52%;
+    }
+    #mead{
+        top: 42%;
+        left: 26.5%;
+    }
+    #desserts{
+        top:61%;
+        left:69%;
+    }
+    #main{
+        top: 70%;
+        left: 11%;
+    }
 }
 
 #odin{
-    color:rgb(236, 215, 160);
+    color:rgb(255, 227, 148);
     left:3%;
     top:3%;
 }
 
 .gold a{
-    color:rgb(236, 215, 160);
+    color:rgb(255, 227, 148); 
     display: inline-block;               
     text-decoration: none;
     font-family: "Norse2";
@@ -72,24 +116,6 @@ h1, h2 {
 				  1px 1px 0 antiquewhite,
 				  1px -1px 0 antiquewhite,
                   -1px -1px 0 antiquewhite;
-}
-
-#vegetables{
-    left: 52%;
-    top: 15%;}
-
-#mead{
-    left: 26.5%;
-    top: 42%;}
-
-#desserts{
-    left:69%;
-    top:61%;
-    } 
-
-#main{
-    left: 11%;
-    top: 70%;
 }
 
 .content-wrapper {
