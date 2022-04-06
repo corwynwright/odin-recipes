@@ -32,12 +32,25 @@ h1, h2 {
     margin:0px;   
     text-shadow:0px 0px 12px rgb(31, 16, 0);
 }
-
+@media only screen and (max-width: 600px) {
+    #odin{
+        font-size: 30px;
+    }
+    .gold a{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 600px){
+    #odin{
+        font-size: 3.6vw;
+    }
+    .gold a{
+        font-size: 1.8vw;
+    }
+}
 
 #odin{
     color:rgb(236, 215, 160);
-    font-size: 3.6vw;
-
     left:3%;
     top:3%;
 }
@@ -45,7 +58,6 @@ h1, h2 {
 .gold a{
     color:rgb(236, 215, 160);
     display: inline-block;               
-    font-size:1.8vw;
     text-decoration: none;
     font-family: "Norse2";
 }
