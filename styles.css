@@ -9,7 +9,9 @@
 body, html {height:100%;
    border: 0;
    padding: 0;
-   margin: 0;}
+   margin: 0;
+   font-size: 100%
+}
 
 h1, h2 {
     font-family: "Norse";
@@ -21,8 +23,8 @@ h1, h2 {
     width: 100%;
     opacity: 0.83}
 
-/*  custom off white: (252, 245, 237)
-    custom dark gray: (73, 73, 73) */
+/*  off white: (252, 245, 237)
+    dark gray: (73, 73, 73) */
 
 .gold{
     font-weight: bold;
@@ -34,7 +36,7 @@ h1, h2 {
 
 #odin{
     color:rgb(236, 215, 160);
-    font-size: 53px;
+    font-size: 3.6vw;
 
     left:3%;
     top:3%;
@@ -43,7 +45,7 @@ h1, h2 {
 .gold a{
     color:rgb(236, 215, 160);
     display: inline-block;               
-    font-size:27px;
+    font-size:1.8vw;
     text-decoration: none;
     font-family: "Norse2";
 }
@@ -70,7 +72,7 @@ h1, h2 {
     } 
 
 #main{
-    left: 13%;
+    left: 11%;
     top: 70%;
 }
 
