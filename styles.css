@@ -19,11 +19,27 @@ h1, h2 {
     font-family: "Norse";
 }
 
-#hero{
-    background-size: cover;
-    height:100%;
+.hero {
     width: 100%;
-    opacity: 0.8;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero::before {
+    background-image: url(images/viking.png);
+    background-size: 100vw 100vh;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
 }
 
 /*  off white: (252, 245, 237)
@@ -31,12 +47,20 @@ h1, h2 {
 
 .gold{
     font-weight: bold;
-    position: absolute;
     margin:0px;   
     text-shadow:0px 0px 12px rgb(31, 16, 0);
 }
 
 @media only screen and (max-width: 600px) {
+    .hero{
+        justify-content: center;
+    }
+
+    .box {
+        background-color: rgba(31, 16, 0, 0.6);
+        padding: 72px;
+        border-radius: 8px;
+    }
     .gold a, #odin{
         text-shadow: 
         -1px 1px 0 rgb(31, 16, 0),
@@ -45,31 +69,24 @@ h1, h2 {
         -1px -1px 0 rgb(31, 16, 0);
     }
     #odin{
+        position: absolute;
         font-size: 35px;
     }
     .gold a{
         font-size: 16px;
+        padding: 16px;
     }
-    #vegetables, #mead, #desserts, #main{
-        left: 3%;
+    .hero {
+        justify-content: center;
+        align-items: center;
     }
-    #vegetables{
-        top: 20%;
-    }
-    #mead{
-        top: 30%;
-    }
-    #desserts{
-        top: 40%;
-    }
-    #main{
-        top: 50%;
-    }
-
 }
 @media only screen and (min-width: 600px){
     #odin{
         font-size: 3.6vw;
+    }
+    .gold{
+        position: absolute;
     }
     .gold a{
         font-size: 1.8vw;
