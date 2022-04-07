@@ -23,6 +23,7 @@ h1, h2 {
     background-size: cover;
     height:100%;
     width: 100%;
+    opacity: 0.8;
 }
 
 /*  off white: (252, 245, 237)
@@ -42,9 +43,6 @@ h1, h2 {
         1px 1px 0 rgb(31, 16, 0),
         1px -1px 0 rgb(31, 16, 0),
         -1px -1px 0 rgb(31, 16, 0);
-    }
-    #hero{
-        opacity: 0.6;
     }
     #odin{
         font-size: 35px;
@@ -70,9 +68,6 @@ h1, h2 {
 
 }
 @media only screen and (min-width: 600px){
-    #hero{
-        opacity: 0.82;
-    }
     #odin{
         font-size: 3.6vw;
     }
